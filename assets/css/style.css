@@ -850,10 +850,11 @@ h2.subtitle {
 
 .twatch-block .block-content-lmi {
   position: relative;
+  border: 1px solid white;
   z-index: 10;
   color: white;
   padding: 0px;
-  padding-left: 130px;
+  padding-left: 30px;
   top: 0;
   left: 0;
   width: auto;
@@ -881,6 +882,17 @@ h2.subtitle {
 
 .twatch-block .site_twatch:focus {
   color: #dd9f4e;
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: white; /* or add it to the track */
+}
+
+/* Add a thumb */
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+  background: #dd9f4e;
 }
 
 /*---------------------------------------------------------
