@@ -615,7 +615,13 @@ h2.subtitle {
 .home-block .map:focus {
   color: #dd9f4e;
 }
+.home-block .lycee-link {
+  color: #dd9f4e;
+}
 
+.block-content .lycee-link a:hover {
+  color: #3a8df5;
+}
 /*------ info ------ */
 .info-section {
   margin-bottom: 70px;
