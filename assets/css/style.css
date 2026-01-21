@@ -1,8 +1,8 @@
 @font-face {
   font-family: "robotolight";
   src: url("../fonts/Roboto-Light-webfont.eot");
-  src: url("../fonts/Roboto-Light-webfont.eot?#iefix")
-      format("embedded-opentype"),
+  src:
+    url("../fonts/Roboto-Light-webfont.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Roboto-Light-webfont.woff") format("woff"),
     url("../fonts/Roboto-Light-webfont.ttf") format("truetype"),
     url("../fonts/Roboto-Light-webfont.svg#robotolight") format("svg");
@@ -13,7 +13,8 @@
 @font-face {
   font-family: "robotoregular";
   src: url("../fonts/Roboto-Regular-webfont.eot");
-  src: url("../fonts/Roboto-Regular-webfont.eot?#iefix")
+  src:
+    url("../fonts/Roboto-Regular-webfont.eot?#iefix")
       format("embedded-opentype"),
     url("../fonts/Roboto-Regular-webfont.woff") format("woff"),
     url("../fonts/Roboto-Regular-webfont.ttf") format("truetype"),
@@ -25,8 +26,8 @@
 @font-face {
   font-family: "robotobold";
   src: url("../fonts/Roboto-Bold-webfont.eot");
-  src: url("../fonts/Roboto-Bold-webfont.eot?#iefix")
-      format("embedded-opentype"),
+  src:
+    url("../fonts/Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Roboto-Bold-webfont.woff") format("woff"),
     url("../fonts/Roboto-Bold-webfont.ttf") format("truetype"),
     url("../fonts/Roboto-Bold-webfont.svg#robotobold") format("svg");
@@ -902,7 +903,33 @@ h2.subtitle {
 }
 
 /*---------------------------------------------------------
- 5. Footer
+ 5. View More Button
+-------------------------------------------------------- */
+.btn-view-more {
+  background-color: #dd9f4e;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-view-more:hover {
+  background-color: #c88a3e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-view-more:active {
+  transform: translateY(0);
+}
+
+/*---------------------------------------------------------
+ 6. Footer
 -------------------------------------------------------- */
 .copyright-text {
   position: relative;
