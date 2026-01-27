@@ -30,8 +30,6 @@ Une section dédiée aux ressources et articles sur les dernières tendances tec
 
 - **GitHub :** [github.com/BenneJam](https://github.com/BenneJam)
 - **LinkedIn :** [benjamin-markiewicz](https://www.linkedin.com/in/benjamin-markiewicz-10a961341/)
-- **Email :** benji.marki70@gmail.com
-- **Téléphone :** 06.37.18.69.05
 
 ---
 
